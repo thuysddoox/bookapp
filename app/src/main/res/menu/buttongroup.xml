@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/menuHeart"
+    android:title=""
+    android:tooltipText="Favorite Books"
+    android:icon="@drawable/heart"/>
+  <item android:id="@+id/menuAdd"
+    android:title="Add to cart"
+    android:tooltipText="Add to cart"
+    />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/purple_700">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <SearchView
+      android:id="@+id/btnSearch"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_marginRight="15dp"
+      android:layout_weight="1"
+      android:background="@color/white"
+      android:contentDescription="Search..."
+      android:inputType="textAutoCorrect|textAutoComplete"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:queryHint="Search..."
+      android:searchIcon="@drawable/search" />
+
+    <ImageView
+      android:id="@+id/btnCart"
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_weight="0"
+      app:srcCompat="@drawable/cart" />
+
+  </LinearLayout>
+</RelativeLayout>

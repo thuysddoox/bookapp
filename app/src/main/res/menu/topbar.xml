@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menuSearch"
+    android:icon="@drawable/search"
+    android:title="Search book"
+    app:showAsAction="withText"
+    app:actionViewClass="android.widget.SearchView" />
+  <item android:id="@+id/menuCart"
+    android:title=""
+    android:tooltipText="Your Cart"
+    android:icon="@drawable/cart"/>
+</menu>
